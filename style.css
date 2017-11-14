@@ -1,16 +1,13 @@
-
-
-
-
 /*		Top Nav		*/
 nav {
 	overflow: hidden;
 	font-family: 'Oswald', sans-serif;
+	text-align: center;
 
 }
 
 .nav-logo {
-	margin-right: 100px;
+	margin-right: 40px;
 	margin-left: 40px;
 }
 .nav-item {
@@ -38,13 +35,14 @@ nav>a:hover {
 	color: #000;
 }
 
-/*		End Of Top Nav		*/
+.navbar-nav {
+	margin: 0 auto;
+}
 
 /*		Banner		*/
 
 .banner {
-/*	max-height: 400px;
-*/	margin-top: 70px;
+/*	max-height: 400px;  */	
 	overflow: hidden;
 	min-width: 100%;
 }
@@ -53,17 +51,18 @@ nav>a:hover {
 	min-width: 100%;
 }
 
-.banner-call {
-	background-color: #fff;
+/*		Quick Intro 		*/
 
-	margin-top: 130px;
-	-webkit-box-shadow: 7px 20px 84px -11px rgba(0,0,0,1);
-	-moz-box-shadow: 7px 20px 84px -11px rgba(0,0,0,1);
-	box-shadow: 7px 20px 84px -11px rgba(0,0,0,1);
+.quick-intro {
+	background-color: #00FFFF;
+	padding: 80px 0 80px 0;
+	text-align: center;
+
 }
 
-/*		End Of Banner		*/
-
+.intro-title {
+	border-bottom: 1px gold solid;
+}
 
 
 /*			Team			*/
@@ -78,7 +77,6 @@ nav>a:hover {
 	text-align: center;
 }
 
-/*			End Of Team 		*/
 
 
 /*		Services 			*/
@@ -101,24 +99,14 @@ nav>a:hover {
 	background-color: #EF6C00 !important;
 }
 
-/*.nav-pills .nav-link.active, .nav-pills {
-	background-color: #EF6C00
-}*/
-
 .dropdown-item.active, .dropdown-item:active {
 	background-color: #EF6C00 !important;
 
 }
 
 
-/*		End Of Services		*/
-
-
 
 /*			Contact 		*/
-
-/*		End of contact		*/
-
 
 
 /*			Footer 			*/
