@@ -43,9 +43,14 @@ nav>a:hover {
 /*		Banner		*/
 
 .banner {
-	max-height: 400px;
-	margin-top: 70px;
+/*	max-height: 400px;
+*/	margin-top: 70px;
 	overflow: hidden;
+	min-width: 100%;
+}
+
+.banner img {
+	min-width: 100%;
 }
 
 .banner-call {
