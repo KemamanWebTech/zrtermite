@@ -42,21 +42,36 @@ nav>a:hover {
 
 /*			Pests 				*/
 	
-
+#pests {
+	padding: 50px 0 50px 0;
+	background-color: red;
+}
 
 
 
 
 /*			Services 			*/
 
-
+#services {
+	padding: 50px 0 50px 0;
+	background-color: yellow;
+}
 
 
 
 /*			Clients 			*/
 
+#clients {
+	padding: 50px 0 50px 0;
+	background-color: purple;
+}
 
+/*			Team 				*/
 
+#team {
+	padding: 50px 0 50px 0;
+	background-color: grey;
+}
 
 
 /*			Footer 				*/
