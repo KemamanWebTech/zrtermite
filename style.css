@@ -73,6 +73,22 @@ nav>a:hover {
 	background-color: grey;
 }
 
+.img-thumbnail {
+	max-height: 236px;
+}
+
+.card-text {
+	text-align: center;
+}
+
+.team-name {
+	font-weight: bold;
+}
+
+.team-title {
+
+}
+
 
 /*			Footer 				*/
 
