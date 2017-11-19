@@ -1,3 +1,10 @@
+
+.section-title {
+	text-align: center;
+	margin: 10px 0 10px 0;
+	border-bottom: 2px solid black;
+}
+
 /*		Top Nav		*/
 nav {
 	font-family: 'Oswald', sans-serif;
@@ -46,11 +53,21 @@ nav>a:hover {
 	padding: 50px 0 50px 0;
 }
 
+.about-us {
+	min-width: 100%;
+}
+
+.img-about1 {
+	width: 300px;
+	height: 450px;
+}
+
+
 /*			Pests 				*/
 
 #pests {
 	padding: 50px 0 50px 0;
-	background-color: red;
+	background-color: #fff;
 }
 
 .gallery-image{
@@ -87,6 +104,13 @@ nav>a:hover {
 	line-height:100%;            
 }
 
+.pest-button {
+	padding: 8px 12px 8px 12px;
+	font-size: 15px;
+	color: #fff;
+	border: 1px solid white;
+	background-color: transparent;
+}
 
 
 
